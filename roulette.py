@@ -2,7 +2,7 @@
 import random 
 
 
-num =random.randint(0,36)
+num =random.randint(0,37)
 choice_specific=""
 choice_subtype=""
 even_odd=""
@@ -21,7 +21,7 @@ play_again = 'f'
 while play_again.lower() in ('f','y'):
     print(f'You have ${money} to bet with.')
    
-    num =random.randint(0,36)
+    num =random.randint(0,37)
     choice_specific=""
     choice_subtype=""
     even_odd=""
@@ -167,3 +167,4 @@ while play_again.lower() in ('f','y'):
         play_again = input("Would you like to play again? (y/n)\n")
 
 print("Thanks for playing!")
+
